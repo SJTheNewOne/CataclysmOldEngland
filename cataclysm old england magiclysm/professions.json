@@ -1,0 +1,146 @@
+[
+  {
+    "type": "profession",
+    "id": "lost_knight",
+    "name": "Knight Errant",
+    "description": "'Zounds! Thy battle 'gainst the dread Moor was well-fought, ser-knight! Yet as that dread sword bore down upon ye, a flash of light so sudden whisked you to this place. Perhaps the Lord has plans for you yet.",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+		  { "item": "boots_larmor" },
+		  { "item": "lc_sabaton" },
+          { "item": "breeches" },
+          { "item": "lc_chainmail_legs" },
+          { "item": "cuirass_lightplate" },
+          { "item": "ragpouch" },
+          { "item": "small_relic" },
+          { "item": "gloves_wraps" },
+          { "item": "tunic" },
+          { "item": "helmet_nasal" },
+          { "item": "lc_chainmail_hauberk" },
+          { "item": "lc_chainmail_hands" },
+          { "item": "longsword", "container-item": "baldric" }
+        ]
+      },
+      "female": { "entries": [ { "item": "chestwrap" } ] }
+    },
+    "proficiencies": [ "prof_medium_swords_familiar", "prof_athlete_basic" ],
+    "skills": [
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "cutting" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "unarmed" }
+    ],
+	"flags": [ "SCEN_ONLY" ],
+	"missions": [ "MISSION_DRAGONSLAYER" ],
+    "traits": [ "ANTIJUNK", "SPIRITUAL", "SLOWREADER" ]
+  },
+  {
+    "type": "profession",
+    "id": "vassal_lord",
+    "name": { "male": "Mesne Lord", "female": "Mesne Lady" },
+    "description": "Thy lands were bountiful and thy faith true, ye did hold great tracts of land under your liege-lord and managed it dutifully. Yet, ye worked not the soil and ate its fruits, and despised those below thy station as uncultured. Pride doth be a sin, and this surely be Hell.",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "ragpouch" },
+          { "item": "small_relic" },
+          { "item": "tunic" },
+          { "item": "breeches" },
+          { "item": "clogs" },
+          { "item": "socks_wool" },
+          { "item": "ring_signet" },
+          { "item": "copper_bracelet" },
+          { "item": "knife_baselard", "container-item": "sheath" }
+        ]
+      },
+      "female": { "entries": [ { "item": "chestwrap" } ] }
+    },
+    "skills": { "level": 2, "name": "speech" },
+	"flags": [ "SCEN_ONLY" ],
+    "traits": [ "ANTIJUNK", "SPIRITUAL", "SLOWREADER", "TABLEMANNERS" ]
+  },
+  {
+    "type": "profession",
+    "id": "naughty_monk",
+    "name": { "male": "Corrupt Monk", "female": "Corrupt Nun" },
+    "description": "Thy life was one of pure mockery to God; donations to the poor went to the kitchen budget, ye drank communion wine by the bottle, and now evildoers assail ye to eat of thy flesh, and there doth be much of it. At least thy hobby of tending to the garden may prove useful.",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "ragpouch" },
+          { "item": "clogs" },
+          { "item": "holy_symbol", "variant": "catholic_necklace" },
+          { "item": "socks_wool" }
+        ]
+      },
+      "female": { "entries": [ { "item": "nun_habit" }, { "item": "nun_wimple" } ] },
+      "male": { "entries": [ { "item": "cassock" } ] }
+    },
+    "skills": [ { "level": 2, "name": "speech" }, { "level": 2, "name": "survival" } ],
+    "traits": [ "ANTIJUNK", "SLOWREADER", "TOLERANCE", "XXXL" ],
+	"flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "heretic_priest",
+    "name": { "male": "Mendicant Preacher", "female": "Mendicant Preachess" },
+    "description": "Thy life was one of immense hunger and poverty, as ye travelled from town to town asking for alms from the faithful. In each town, you were cast out as heretic, doomsayer. But it seems as though thy words now stand true.",
+    "points": 0,
+    "items": {
+      "both": { "entries": [ { "item": "ragpouch" }, { "item": "footrags" }, { "item": "tunic_rag" }, { "item": "q_staff" } ] },
+      "female": { "entries": [ { "item": "chestwrap" } ] }
+    },
+    "skills": [
+      { "level": 4, "name": "speech" },
+      { "level": 4, "name": "survival" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "bashing" }
+    ],
+    "traits": [ "ANTIJUNK", "ILLITERATE", "SPIRITUAL", "XS", "STRONGSTOMACH" ],
+	"flags": [ "SCEN_ONLY" ]
+  },
+    {
+    "type": "profession",
+    "id": "bard",
+    "name": { "male": "Bard", "female": "Bardess" },
+    "description": "Thy life was verse and composed song, travelling throughout the lands with nary a care in the world. When times were tough, you stole, when times were plentiful, you played. Now, it seems these living dead need more than a song to lift their spirits.",
+    "points": 0,
+    "items": {
+      "both": { "entries": [ { "item": "ragpouch" }, { "item": "socks_wool" }, { "item": "clogs" }, { "item": "tunic_rag" },  {"item": "flute" }, {"item": "crude_picklock"}, { "item": "knife_baselard", "container-item": "sheath" } ] },
+      "female": { "entries": [ { "item": "chestwrap" } ] }
+    },
+    "proficiencies": [ "prof_lockpicking", "prof_knives_familiar" ],
+	"skills": [
+      { "level": 6, "name": "speech" },
+      { "level": 1, "name": "survival" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "cutting" }
+    ],
+    "traits": [ "ANTIJUNK", "ILLITERATE", "SPIRITUAL", "NOMAD", "STRONGSTOMACH" ],
+	"flags": [ "SCEN_ONLY" ]
+  },
+      {
+    "type": "profession",
+    "id": "gongfarmer",
+    "name": { "male": "Gong Farmer", "female": "Gong Farmess" },
+    "description": "Thy duty was to clean the night-soil from chamber pots. Most shunned ye for thy offense to their nose, miasmic toxins clung to ye. Just as ye thought ye had been blessed, finding a valuable necklace in thy latest work, the world twist'd about and ye found thyself in a hell worse than any cesspit. ",
+    "points": 0,
+    "items": {
+      "both": { "entries": [ { "item": "ragpouch", "custom-flags": "FILTHY" }, { "item": "footrags", "custom-flags": "FILTHY" }, { "item": "diamond_gold_pendant_necklace" }, { "item": "tunic_rag", "custom-flags": "FILTHY" },  {"item": "primitive_shovel" } ] },
+      "female": { "entries": [ { "item": "chestwrap", "custom-flags": "FILTHY" } ] }
+    },
+    "proficiencies": [ "prof_fibers", "prof_carving" ],
+	"skills": [
+      { "level": 2, "name": "throw" },
+      { "level": 3, "name": "survival" },
+	  { "level": 3, "name": "fabrication" },
+	  { "level": 1, "name": "cooking" }
+    ],
+    "traits": [ "ANTIJUNK", "ILLITERATE", "SPIRITUAL", "SMELLY", "STRONGSTOMACH"  ],
+	"flags": [ "SCEN_ONLY" ]
+  }
+]

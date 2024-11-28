@@ -1,0 +1,20 @@
+  {
+    "type": "scenario",
+    "id": "medieval",
+    "name": "Medieval Times",
+    "points": 0,
+    "description": "The world went bright, and ye found thyself transported to this strange land. The End-Times have come!",
+    "allowed_locs": [ "sloc_field", "sloc_river", "sloc_forest" ],
+    "start_name": "Wilderness",
+    "professions": [
+      "lost_knight",
+      "churl",
+      "vassal_lord",
+      "bard",
+      "heretic_priest",
+      "naughty_monk",
+	  "gongfarmer"
+    ],
+    "flags": [ "LONE_START" ],
+    "reveal_locale": false
+  },
