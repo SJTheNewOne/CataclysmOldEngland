@@ -1,0 +1,14 @@
+[ 
+ {
+    "type": "scenario",
+    "id": "medievalarthurian",
+    "name": "Questing Knight",
+    "points": 0,
+    "description": "Ye know not how ye got here. Thy life had been devoted to the Grail-Quest, and ye thought ye had found it. Yet, when thy foot crossed the glimmering portal's threshold, ye found thyself here. The quest continues, regardless.",
+    "allowed_locs": [ "sloc_field", "sloc_river", "sloc_forest" ],
+    "start_name": "Wilderness",
+    "professions": [ "lost_knight_magic" ],
+    "flags": [ "LONE_START" ],
+    "reveal_locale": false
+  }
+  ],

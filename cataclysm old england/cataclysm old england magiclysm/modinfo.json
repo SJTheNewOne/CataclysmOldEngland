@@ -4,8 +4,8 @@
     "id": "cataclysm_old_england_magic",                  
     "name": "Cataclysm: Old England - Magiclysm",                  
     "authors": [ "Serena, Wiki Sisyphus" ],
-    "dependencies": [ "dda", "magiclysm" ],
-    "category": "misc_additions",
+    "dependencies": [ "dda", "magiclysm", "cataclysm_old_england" ],
+    "category": "misc_additions",    
     "description": "Adding more professions and scenarios to play as a person from the middle ages. This version is for use with Magiclysm." 
   }
 ]
