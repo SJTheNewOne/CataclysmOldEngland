@@ -5,4 +5,4 @@ The base mod comes with a compatibility patch for Magiclysm, and there is curren
 
 This mod completely replaces "Challenge - Medieval Peasant." To access the Churl in all of his glory, you use the "Medieval Times" scenario, which now includes the Churl alongside several other friends of the middle ages. If you wish to play a Knight, then use the scenario "Medieval Battle-Scorned," and you will have access to several powerful professions based on units within a 13-14th century army, though all will start out seriously injured. 
 
-Thank you for playing, I am taking suggestions at all times, as I hope to expand this mod into something much, much, greater. 
+Thank you for playing, I am taking suggestions, as I hope to expand this mod into something much, much, greater. 
