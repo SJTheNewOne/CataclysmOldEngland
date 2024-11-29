@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",                            
+    "id": "cataclysm_old_england_innawoods",                  
+    "name": "Cataclysm: Old England Innawoods",                  
+    "authors": [ "Serena, Wiki Sisyphus" ],    
+	"dependencies": [ "dda", "innawood", "cataclysm_old_england" ],
+	"category": "misc_additions",
+    "description": "Adding more professions and scenarios to play as a person from the middle ages" 
+  }
+]

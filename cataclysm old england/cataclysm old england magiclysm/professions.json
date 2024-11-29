@@ -1,0 +1,38 @@
+  {
+    "type": "profession",
+    "id": "lost_knight_magic",
+    "name": "Questing-Knight",
+    "description": "Captured at an early age by the tales of great Dragonslayers and Grail-seekers, ye have embarked upon a quest to find and take down one such monster. And yet, there have been none in sight. But one day, you chanced upon a shimmering portal, and standing upon its threshold, felt the call. In this new world, ye seek thy prize.",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+		  { "item": "boots_larmor" },
+		  { "item": "lc_sabaton" },
+          { "item": "breeches" },
+          { "item": "lc_chainmail_legs" },
+          { "item": "cuirass_lightplate" },
+          { "item": "ragpouch" },
+          { "item": "small_relic" },
+          { "item": "gloves_wraps" },
+          { "item": "tunic" },
+          { "item": "helmet_nasal" },
+          { "item": "lc_chainmail_hauberk" },
+          { "item": "lc_chainmail_hands" },
+          { "item": "longsword", "container-item": "baldric" }
+        ]
+      },
+      "female": { "entries": [ { "item": "chestwrap" } ] }
+    },
+    "proficiencies": [ "prof_medium_swords_familiar", "prof_athlete_basic" ],
+    "skills": [
+      { "level": 3, "name": "melee" },
+      { "level": 2, "name": "cutting" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "unarmed" }
+    ],
+	"flags": [ "SCEN_ONLY" ],
+	"missions": [ "MISSION_DRAGONSLAYER" ],
+    "traits": [ "ANTIJUNK", "SPIRITUAL", "SLOWREADER" ]
+  },
+ 

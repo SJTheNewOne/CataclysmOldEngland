@@ -1,0 +1,24 @@
+{
+    "id": "MISSION_DRAGONSLAYER",
+    "type": "mission_definition",
+    "name": { "str": "Slay a dragon!" },
+    "description": "You seem to be within a land more akin to Authur's legends then thy home. Perhaps, then, ye may now take up thy blade and become a hero of those old legends. Seek now a dragon!",
+    "goal": "MGOAL_KILL_MONSTER_TYPE",
+    "monster_type": "mon_dragon_dummy",
+    "monster_kill_goal": 1,
+    "difficulty": 20,
+    "value": 0,
+    "end": {
+      "effect": [
+        {
+          "u_add_morale": "morale_feeling_bad",
+          "bonus": -20,
+          "max_bonus": -50,
+          "duration": "120 minutes",
+          "decay_start": "120 minutes"
+        },
+        { "assign_mission": "MISSION_DRAGONSLAYER2" }
+      ]
+    },
+    "origins": [ "ORIGIN_GAME_START" ]
+  },

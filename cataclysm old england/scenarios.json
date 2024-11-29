@@ -1,0 +1,26 @@
+[
+  {
+    "type": "scenario",
+    "id": "medieval",
+    "name": "Medieval Times",
+    "points": 0,
+    "description": "The world went bright, and ye found thyself transported to this strange land. The End-Times have come!",
+    "allowed_locs": [ "sloc_field", "sloc_river", "sloc_forest" ],
+    "start_name": "Wilderness",
+    "professions": [ "churl", "vassal_lord", "bard", "heretic_priest", "naughty_monk", "gongfarmer" ],
+    "flags": [ "LONE_START" ],
+    "reveal_locale": false
+  },
+  {
+    "type": "scenario",
+    "id": "medievalbad",
+    "name": "Medieval Battle-scorned",
+    "points": 0,
+    "description": "T'was the heat of battle, and ye were nearly slain by the foe. Yet, as ye thought the good Lord called ye home, thy eyes opened to find this unfamiliar land. Perhaps it is hell.",
+    "allowed_locs": [ "sloc_field", "sloc_river", "sloc_forest" ],
+    "start_name": "Wilderness",
+    "professions": [ "lost_knight", "lost_knight_halberd", "serjent", "churllevy" ],
+    "flags": [ "LONE_START", "HELI_CRASH", "SCENARIO_BLOOD" ],
+    "reveal_locale": false
+  }
+]
